@@ -1,0 +1,100 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+	display: flex;	
+	justify-content: center;
+	flex-direction: column;	
+	align-items: center;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: ghostwhite;
+	padding: 2em;
+	max-width: 500px;
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+}
+
+.cell{
+	border: 1px solid gray;
+   	border-radius: 8px;
+	padding: 1em;   
+	width: 100%; 	
+	background-color: white;	
+}
+
+.cell-inter{
+	padding: 1em;
+	display: flex;	
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.red{
+	color: red;
+}
+
+.green{
+	color: green;
+}
+      
+li {
+	display: flex;
+	background-color: white;	
+	margin-bottom: 1em;
+	padding: 0.5em;
+	justify-content: space-between;	
+	min-width: 200px;	
+}
+
+.close {
+	display: flex;
+	border: none;
+	border-radius: 50% ;	
+	max-width: 2.5px;
+	max-height: 2.5px;
+	justify-content: center;
+	align-items: center;
+	background-color: red;	
+	color:white;
+}   
+
+.close:hover {
+	background-color: gray;	
+ }
+
+input{
+	color: black;
+	border-radius: 15px;
+	background-color:rgb(238, 236, 236);
+	width: 100%;
+	outline: none;
+	border:none;
+	padding: 15px;
+}
+
+input:valid:not(:placeholder-shown){
+	border: 2px solid green;
+}
+
+button{
+	color: white;     	
+	border-radius: 25px;
+	background-color: royalblue ;
+	border:none; 	
+	border-radius: 15px;
+	padding: 1em;
+	width: 100%;
+	margin-top: 1em;
+}
+    
